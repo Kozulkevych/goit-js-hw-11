@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picture Search</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <div class="search-form__wrapper">
+    <form class="search-form" id="search-form">
+      <input class="search-form__input" type="text" name="searchQuery" autocomplete="off"
+        placeholder="Search images..." />
+      <button class="search-form__btn" type="submit"><svg width="20" height="20">
+          <use href="/src/images/symbol-defs.svg#icon-search"></use>
+        </svg></button>
+    </form>
+  </div>
+  <div class="gallery">
+
+  </div>
+  <div class="more-BTN">
+    <button type="button" class="load-more" hidden>Load more</button>
+  </div>
+</body>
+
+</html>
